@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(120, 96, 96);
+    /* background-color: rgb(175, 131, 64); */
+}
+
+.left{
+    width: 50%;
+}
+.left>p{
+    font-size: 1.2rem;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    /* font-family: 'Epilogue', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif; */
+}
+button {
+    margin: 20px 0px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-7 {
+    background: linear-gradient(0deg, rgb(228, 41, 216) 0%, rgb(61, 55, 55) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .btn-7 span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .btn-7:before,
+    .btn-7:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7:before{
+       height: 0%;
+       width: 2px;
+    }
+    .btn-7:after {
+      width: 0%;
+      height: 2px;
+    }
+    .btn-7:hover{
+      color: rgb(255, 255, 255);
+      background: transparent;
+    }
+    .btn-7:hover:before {
+      height: 100%;
+    }
+    .btn-7:hover:after {
+      width: 100%;
+    }
+    .btn-7 span:before,
+    .btn-7 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgb(94, 83, 78);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .btn-7 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .btn-7 span:hover:before {
+      height: 100%;
+    }
+    .btn-7 span:hover:after {
+      width: 100%;
+    }
+    
+
+.title{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+
+    /* text-decoration: underline; */
+    margin: 1.2rem 0rem;
+}
+
+.kohli{
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgb(183, 158, 196);
+}
+
+.achievements>h2{
+    margin: 1.2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.achievements>hr{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    background-color: black;
+    outline: black;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.col{
+    width: 20%;
+    text-align: center;
+}
+.col>img{
+    height: 50%;
+    text-align: center;
+}
+.col>p{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Farsan', cursive;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mogra', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
